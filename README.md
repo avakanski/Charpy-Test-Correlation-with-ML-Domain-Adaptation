@@ -32,7 +32,7 @@ The framework provides a basis for using sub-sized impact tests in full-sized pr
 - jupyter
 
 ## ▶️ Use
-Download the `Charpy_Dataset` folder and set `ROOT` at the top of each script or notebook to your own path of this folder. Run the notebook in `Main results` to reproduce the main results, and run each Python script in `ablation_scripts` (e.g., `python ablation_gl_only.py`) to reproduce the ablation studies. Then run the notebooks in `Other Results include tables and figures` to generate the additional tables and figures, starting with `DSAdaBN_Different_Methods.ipynb` and followed by `DSAdaBN_Sampling_Figure_Table.ipynb`.
+Download the `Charpy_Dataset` folder and set `ROOT` at the top of each script or notebook to your own path of this folder. Run the notebook in `Domain Adaptation` to reproduce the main results, and run each Python script in `Ablation Scripts` (e.g., `python ablation_gl_only.py`) to reproduce the ablation studies. Then run the notebooks in `Tables and Figures` to generate the additional tables and figures, starting with `DSAdaBN_Different_Methods.ipynb` and followed by `DSAdaBN_Sampling_Figure_Table.ipynb`.
 
 ## 🚩 License
 <a href="LICENSE">MIT License</a>
