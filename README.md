@@ -10,10 +10,10 @@ Evaluation across A533B transition curves yields final R² values of 0.9569 for 
 The framework provides a basis for using sub-sized impact tests in full-sized property estimation and for extending size correlation based on domain adaptation machine learning to additional materials and specimen geometries.
 
 ## 📂 Repository Organization
-- [**Charpy_Dataset**](Charpy_Dataset/): Contains the Charpy impact test dataset and the data files used in this study.
-- [**Main results**](Main%20results/): Contains the code and outputs for the main results of the study, including the UADS sampling, sub-to-full label projection, DS-AdaBN regression, and physics-guided and uncertainty-adaptive correction for USE and DBTT prediction.
-- [**Other Results include tables and figures**](Other%20Results%20include%20tables%20and%20figures/): Contains notebooks and exported files for the comparison with other domain-adaptation methods and for generating the additional tables and figures reported in the study.
-- [**ablation_scripts**](ablation_scripts/): Contains scripts for the ablation studies evaluating the contribution of the sampling strategies, real-domain augmentation, and the number of synthetic points per curve.
+- [**Charpy Dataset**](Charpy_Dataset/): Contains the Charpy impact test dataset and the data files used in this study.
+- [**Domain Adaptation**](Domain_Adaptation/): Contains the code and outputs for the main results of the study, including the UADS sampling, sub-to-full label projection, DS-AdaBN regression, and physics-guided and uncertainty-adaptive correction for USE and DBTT prediction.
+- [**Tables and Figures**](Tables_and_Figures/): Contains notebooks and exported files for the comparison with other domain-adaptation methods and for generating the additional tables and figures reported in the study.
+- [**Ablation Scripts**](Ablation_Scripts/): Contains scripts for the ablation studies evaluating the contribution of the sampling strategies, real-domain augmentation, and the number of synthetic points per curve.
 
 ## 📊 Data
 - [**Dataset**](Charpy_Dataset/Charpy_Impact_Test_Dataset.xlsx): The dataset of Charpy impact properties was collected by our team and is described in [Comprehensive Toughness Dataset of Nuclear Reactor Structural Materials using Charpy V-Notch Impact Testing](https://www.nature.com/articles/s41597-025-04823-1) and archived in the [Materials Cloud Archive](https://doi.org/10.24435/materialscloud:p6-5y). The full-sized curves from this dataset serve as references for label projection and as ground truth for evaluation.
